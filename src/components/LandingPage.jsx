@@ -258,7 +258,7 @@ const AIBusinessWebsite = () => {
                     rel="noopener noreferrer"
                     className="text-2xl font-bold hover:text-yellow-300 transition-colors"
                   >
-                    +91 96652 80382
+                    +91 XXXX XXXX
                   </a>
                 </div>
                 <div className="space-y-3 text-lg">

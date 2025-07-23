@@ -252,14 +252,7 @@ const AIBusinessWebsite = () => {
               <div className="space-y-6">
                 <div className="flex items-center justify-center md:justify-start space-x-4">
                   <span className="text-3xl">📞</span>
-                  <a 
-                    href={whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-2xl font-bold hover:text-yellow-300 transition-colors"
-                  >
-                    +91 XXXX XXXX
-                  </a>
+                  
                 </div>
                 <div className="space-y-3 text-lg">
                   <div className="flex items-center justify-center md:justify-start space-x-3">

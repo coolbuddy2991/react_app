@@ -22,7 +22,7 @@ const AIBusinessWebsite = () => {
     },
     { 
       icon: "🔌", 
-      title: "API Development", 
+      title: "Web applications Development", 
       desc: "Robust APIs to integrate AI capabilities into your existing systems" 
     },
     { 
@@ -34,7 +34,8 @@ const AIBusinessWebsite = () => {
       icon: "🎯", 
       title: "Predictive Analytics", 
       desc: "Forecast trends and make data-driven decisions with confidence" 
-    }
+    },
+    
   ];
 
   const platforms = [

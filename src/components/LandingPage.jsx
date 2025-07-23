@@ -22,7 +22,7 @@ const AIBusinessWebsite = () => {
     },
     { 
       icon: "🔌", 
-      title: "Web applications Development", 
+      title: "Web Applications Development", 
       desc: "Robust APIs to integrate AI capabilities into your existing systems" 
     },
     { 

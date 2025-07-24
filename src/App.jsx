@@ -1,4 +1,4 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css'
 import AIBusinessPoster from './components/LandingPage'
 

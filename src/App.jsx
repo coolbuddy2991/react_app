@@ -1,13 +1,13 @@
-import { useState } from 'react'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import './App.css'
 import AIBusinessPoster from './components/LandingPage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <AIBusinessPoster />
+      <SpeedInsights />
     </>
   )
 }

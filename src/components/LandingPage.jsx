@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const AIBusinessWebsite = () => {
   const [isVisible, setIsVisible] = useState({});
-  const whatsappUrl = "https://wa.me/919665280382?text=Hi! I'm interested in your AI application development services. Can you please share more details?";
+  const whatsappUrl = "https://wa.me/919665280382?text=Hi! I'm interested in your AI application development services.";
 
   const services = [
     { 
@@ -138,7 +138,7 @@ const AIBusinessWebsite = () => {
       <section id="about" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-gray-800 mb-6">About Me</h2>
+            <h2 className="text-5xl font-bold text-gray-800 mb-6">About Us</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
           </div>
           
@@ -149,7 +149,7 @@ const AIBusinessWebsite = () => {
                 <div className="space-y-4">
                   <div className="text-4xl">🎓</div>
                   <h3 className="text-xl font-bold">Education</h3>
-                  <p className="text-lg">Data Science Graduate from IIT Madras</p>
+                  <p className="text-lg">We are a team of Data Scientists from IIT Madras</p>
                 </div>
                 <div className="space-y-4">
                   <div className="text-4xl">💻</div>
@@ -159,7 +159,7 @@ const AIBusinessWebsite = () => {
                 <div className="space-y-4">
                   <div className="text-4xl">🚀</div>
                   <h3 className="text-xl font-bold">Specialization</h3>
-                  <p className="text-lg">AI & Machine Learning Expert</p>
+                  <p className="text-lg">AI, Machine Learning & Programming Experts</p>
                 </div>
               </div>
             </div>

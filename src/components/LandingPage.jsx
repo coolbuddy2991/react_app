@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import Marketplace from './Marketplace';
+import NeuralNetworkVisualizer from './NeuralNetworkVisualizer';
 
 const AIBusinessWebsite = () => {
   const [isVisible, setIsVisible] = useState({});
-  const whatsappUrl = "https://wa.me/919665280382?text=Hi! I'm interested in your AI application development services.";
+  const [showMarketPlace ,setShowMarketplace] = useState(false)
+  const whatsappUrl = "https://wa.me/7507088360?text=Hi! I'm interested in your AI application development services.";
 
   const services = [
     { 
@@ -101,10 +104,11 @@ const AIBusinessWebsite = () => {
             >
               💬 WhatsApp
             </a>
+            
           </div>
         </div>
       </nav>
-
+    
       {/* Hero Section */}
       <section id="home" className="bg-gradient-to-br from-blue-600 via-purple-700 to-indigo-800 text-white py-20">
         <div className="max-w-6xl mx-auto px-4 text-center">
@@ -130,10 +134,12 @@ const AIBusinessWebsite = () => {
             >
               Explore Services
             </a>
+            
+            
           </div>
         </div>
       </section>
-
+      {showMarketPlace && <Marketplace />}
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
